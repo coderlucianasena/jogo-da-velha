@@ -1,0 +1,58 @@
+button{
+    border: 1px #000 solid;
+    width: 100px;
+    height: 100px;
+    font-style: boold;
+    font-weight: 900;
+}
+
+.coluna-jogo{
+    display: flex;
+}
+
+.jogao-brabo{
+    display: flex;
+    justify-content: center;
+}
+
+.status{
+    font-family: cursive;
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 30px;
+    color: #fff;
+    text-shadow:
+      0 0 7px #fff,
+      0 0 10px #fff,
+      0 0 21px #fff,
+      0 0 42px rgb(255, 2, 213),
+      0 0 82px rgb(255, 2, 213),
+      0 0 92px rgb(255, 2, 213),
+      0 0 102px rgb(255, 2, 213),
+      0 0 151px #0fa;
+      margin-top: 200px;
+}
+
+.botao-reiniciar{
+    width: 300px;
+    margin-top: 15px;
+    background-color: rgb(255, 0, 234);
+    height: 40px;
+}
+
+.quadrado{
+    background-color: #fff;
+    border: 1px rgb(255, 0, 234) solid;
+}
+
+.jogao{
+    background-image: url(980184fe0897895825bb2e751d8007f7.gif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+
+body{
+    margin: 0px;
+}
